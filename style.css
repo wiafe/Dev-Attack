@@ -1,0 +1,56 @@
+header {
+	text-align: center;
+	background: url("assets/bg-pic.jpg");
+    background-size: cover;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+img {
+	margin: 40px 0px 0px 0px;
+}
+
+a {
+	color: white;
+}
+
+
+ul {
+	padding: 10px;
+	background: black;
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+header img {
+	height: 200px;
+	width: 200px;
+	border: 5px solid black;
+	border-radius: 100px;
+}
+
+article {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+	body {
+		background: red;
+		color: white;
+	}
+
+	a {
+		color: black;
+	}
+
+	ul {
+		background: white;
+	}
+}
